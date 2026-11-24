@@ -11,6 +11,14 @@ Semua unduhan, bukan buatan tim. Cek lisensi sebelum dipakai atau dipublikasikan
 
 Belum ada: model helm utuh, dan model chest strap GoPro itu sendiri (hanya klip dan pelat yang cocok dengan mount GoPro, belum terbukti).
 
+## Adaptor slot helm (hasil crop, `helm/adaptor_slot/`)
+Dibuat dengan `skrip/09_crop_adaptor_slot.py` dari irisan horizontal STL asli, lalu dipotong ke bagian pelat dan kaki pemasang saja.
+| File | Ukuran (mm) | Asal | Lisensi turunan |
+|---|---|---|---|
+| `lidah_slot_ibew.step/.stl` | 33.0 x 31.3 x 3.5 | klip IBEW 105 (kepala bertulisan dibuang) | CC BY-NC 4.0 (non-komersial, sebut sumber) |
+| `pelat_slot_sayap.step/.stl` | 33.0 x 16.8 x 3.0 | pelat dasar sayap (sayap hiasan dibuang) | CC BY 4.0 (sebut sumber: Tibu) |
+BELUM DICEK terhadap slot helm fisik: lebar, tebal, dan arah masuk.
+
 ## File ini tidak ikut repo
 Model di folder `helm/` dan `chest/` tidak di-commit (STL SlimeVR 63 MB, dan lisensi CC BY-SA / BY-NC / BY yang berbeda).
 Unduh ulang dari halaman sumber di tabel di atas ke folder yang sama.

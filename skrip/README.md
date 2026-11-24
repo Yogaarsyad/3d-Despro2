@@ -13,6 +13,11 @@ Jalankan berurutan dari PowerShell. Path di dalam skrip masih absolut ke kompute
 | `02_pcb2_baterai_bawah_dan_pcb1_holder.py` | `casing/3D-pcb2_v4_baterai-bawah.FCStd`, `perakitan/assembly_PCB2_v4_...`, dan angka holder untuk PCB1 |
 | `03_pcb1_casing.py` | `casing/3d-pcb1_v2_baterai-atas.FCStd`, `perakitan/assembly_PCB1_v3_...` (dinding 34 mm, selongsong tombol, celah kabel) |
 | `04_pcb1_chest_mount.py` | `casing/3d-pcb1_v3_chest-mount.FCStd`, `perakitan/assembly_PCB1_v4_...` (lubang klip chest) |
+| `05_pcb1_usb_extend.py` | `casing/3d-pcb1_v4_usb-extend.FCStd`, `perakitan/assembly_PCB1_v5_...` (lubang kabel USB TP4056) |
+| `06_pcb1_devkit_asli.py` | `perakitan/assembly_PCB1_v6_devkit-asli.FCStd` |
+| `07_pcb1_gps_asli.py` | `perakitan/assembly_PCB1_v7_gps-asli.FCStd` (model NEO-6M berisi shell, tanpa antena) |
+| `08_pcb1_gps_antena.py` | `perakitan/assembly_PCB1_v8_gps-antena.FCStd` (model terbaru, dipakai) |
+| `09_crop_adaptor_slot.py` | `mekanik/helm/adaptor_slot/` (lidah IBEW dan pelat sayap) |
 
 Skrip membutuhkan model pihak ketiga di `modul/` dan `mekanik/` (tidak ikut repo, lihat README di folder itu).
 File `.FCStd` hasil skrip tidak menyimpan visibilitas objek. Buka lewat `perakitan/_buka_*.py`

@@ -1,0 +1,12 @@
+model NEO-6M: 230 objek; papan+komponen x[0.00,26.34] y[0.00,35.56]; z[-3.05,8.89]; objek pin tinggi: 2
+  pin: x[7.56,17.72] y[32.75,35.29] z[-3.05,8.89]; badan: z[-1.11,2.40]
+pad U9: [(80.229, 48.225), (80.229, 50.765), (80.229, 53.305), (80.229, 55.845)]
+GPS terpasang: x[78.7,114.2] y[39.4,65.7] z[8.6,20.6]
+ujung pin z=8.63 (host: atas 10.6, bawah 9.0) -> menonjol 0.37 mm di bawah PCB
+  objek pin pusat (80.23,54.57) lebar y 5.08 -> pad terdekat jarak 1.27 mm
+  objek pin pusat (80.23,49.50) lebar y 5.08 -> pad terdekat jarak 1.27 mm
+amplop padat: badan z[10.57,14.08] (tertinggi di papan 3.5 mm di atas papan), pin sampai z=20.57
+--- tabrakan GPS asli (mm3 > 0.5) ---
+  tidak ada
+  jarak ke tepi terdekat modul lain (arah x): U2 xmax=78.1, GPS xmin=78.7
+  puncak GPS z=20.6; bawah pelat tutup z=34.0; sisa 13.4 mm

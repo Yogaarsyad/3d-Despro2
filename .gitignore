@@ -5,3 +5,6 @@ modul/*
 !modul/README.md
 mekanik/**
 !mekanik/README.md
+!mekanik/helm/
+!mekanik/helm/adaptor_slot/
+!mekanik/helm/adaptor_slot/**

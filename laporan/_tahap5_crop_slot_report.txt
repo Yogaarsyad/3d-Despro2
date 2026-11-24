@@ -1,0 +1,6 @@
+lidah_slot_ibew: 3914 segitiga, bbox x[-16.6,16.4] y[-39.3,20.2] z[-8.11,0.89]
+  irisan z=-3.86: 2 lingkaran, luas 998.9 mm2
+  hasil lidah_slot_ibew: 33.0 x 31.3 x 3.5 mm, volume 3003 mm3, solid valid=True, jumlah solid 1
+pelat_slot_sayap: 95810 segitiga, bbox x[152.1,237.0] y[21.2,122.1] z[0.00,4.69]
+  irisan z=1.50: 6 lingkaran, luas 2733.4 mm2
+  hasil pelat_slot_sayap: 33.0 x 16.8 x 3.0 mm, volume 1232 mm3, solid valid=True, jumlah solid 1

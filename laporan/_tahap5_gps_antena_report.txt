@@ -1,0 +1,7 @@
+model GY-NEO6MV2+antena: 4 solid; x[-16.34,19.26] y[-9.00,3.33] z[9.39,35.60]
+papan (objek terluas): 35.6 x 26.2, tebal+komponen 4.1; antena sisi -y sampai y=-9.00, tinggi total di atas dasar 12.33 mm
+GPS terpasang: x[78.7,114.3] y[38.9,65.1] z[10.6,22.9]; silkscreen gerber: x 78.6..113.6, y 39.6..64.6
+--- tabrakan GPS + antena (mm3 > 0.5) ---
+  tidak ada
+  puncak GPS z=22.9; bawah pelat tutup z=34.0; sisa 11.1 mm
+  tepi GPS terdekat: U2 xmax=78.1, GPS xmin=78.7; DevKit xmax=69.9
