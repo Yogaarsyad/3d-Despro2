@@ -1,0 +1,4 @@
+PCB1: sebelum, titik di sumbu lubang yang kosong = 12 dari 12; sesudah, titik kosong di seluruh penampang d9 = 0 dari 156; valid=True; vol 139755 -> 140137 (+382, harapan +390)
+PCB2: sebelum, titik di sumbu lubang yang kosong = 12 dari 12; sesudah, titik kosong di seluruh penampang d9 = 0 dari 156; valid=True; vol 95641 -> 96023 (+382, harapan +390)
+PCB1 alur O-ring (488 titik): bahan di alur=0, dasar tidak utuh=0 (harus 0); tabrakan Base x Tutup 0.00 mm3; Base valid=True
+PCB2 alur O-ring (360 titik): bahan di alur=0, dasar tidak utuh=0 (harus 0); tabrakan Base x Tutup 0.00 mm3; Base valid=True

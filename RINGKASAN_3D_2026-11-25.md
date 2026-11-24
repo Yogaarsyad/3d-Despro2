@@ -34,6 +34,8 @@ Detail angka ada di `laporan/_tahap*_report.txt`. Skrip pembangun ada di `skrip/
 - Cek program: geometri valid, alur menerus tanpa lubang di dasarnya, tutup menutup seluruh alur, tabrakan Base-Tutup 0.00 mm3, boss baru tidak menabrak isi. Yang belum ada: uji rendam.
 - Masih jadi jalur bocor yang harus ditangani di perakitan: lubang sekrup klip chest di lantai PCB1 (pakai sealing washer + sealant ulir), kabel sensor air di dalam (aman), antena Ra-02 (belum ada), dan sambungan kabel O-ring.
 
+**Varian tanpa lubang USB** (keputusan Calvin: baterai dicas di luar lalu diganti): `casing/3d-pcb1_v7_tanpa-usb.FCStd`, `casing/3D-pcb2_v6_tanpa-usb.FCStd` (STEP/STL `PCB1_v7_Base`, `PCB2_v6_Base`; tutup tetap `PCB1_v6_Tutup_cetak` dan `PCB2_v5_Tutup_cetak`), perakitan `assembly_PCB1_v11_...` dan `assembly_PCB2_v6_...`. Lubang d9 diisi penuh (0 titik kosong di 156 titik tiap papan), alur O-ring tetap menerus. Modul TP4056 tetap dipasang karena dilalui baterai sebagai proteksi (B+/B-). Ganti baterai berarti membuka tutup (12 sekrup PCB1, 8 sekrup PCB2) dan O-ring; pertimbangkan pintu baterai terpisah.
+
 ## 4. Masalah terbuka (urut kepentingan)
 1. **Holder 18650: pin model berjarak 74.3 mm, pad PCB1 dan PCB2 berjarak 70.0 mm**, lubang 1.1 mm sedangkan pin model 0.5 x 1.5 mm (diagonal 1.6 mm). Ukur holder fisik sebelum print. PCB sudah diproduksi. Polaritas holder (sisi VBAT_POS) juga DUGAAN.
 2. **Waterproof belum diuji rendam.** Perlu: konektor USB-C panel-mount waterproof yang muat di lubang d9 (banyak yang butuh sekitar d16), membran silikon tombol, sealing washer untuk 20 sekrup (12 + 8), segel sekrup klip chest di lantai PCB1.
