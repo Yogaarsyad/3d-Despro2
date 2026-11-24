@@ -17,6 +17,8 @@ Jalankan berurutan dari PowerShell. Path di dalam skrip masih absolut ke kompute
 | `06_pcb1_devkit_asli.py` | `perakitan/assembly_PCB1_v6_devkit-asli.FCStd` |
 | `07_pcb1_gps_asli.py` | `perakitan/assembly_PCB1_v7_gps-asli.FCStd` (model NEO-6M berisi shell, tanpa antena) |
 | `08_pcb1_gps_antena.py` | `perakitan/assembly_PCB1_v8_gps-antena.FCStd` (model terbaru, dipakai) |
+| `10_pcb1_hapus_celah_sensor.py` | `casing/3d-pcb1_v5_sensor-di-tutup.FCStd`, `perakitan/assembly_PCB1_v9_...` (celah kabel sensor air dihapus) |
+| `11_waterproof.py` | `casing/3d-pcb1_v6_waterproof.FCStd`, `casing/3D-pcb2_v5_waterproof.FCStd`, perakitan v10/v5 (alur O-ring, dinding tebal, sekrup tambahan, membran tombol) |
 | `09_crop_adaptor_slot.py` | `mekanik/helm/adaptor_slot/` (lidah IBEW dan pelat sayap) |
 
 Skrip membutuhkan model pihak ketiga di `modul/` dan `mekanik/` (tidak ikut repo, lihat README di folder itu).

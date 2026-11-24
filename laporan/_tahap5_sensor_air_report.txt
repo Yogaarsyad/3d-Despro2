@@ -1,0 +1,6 @@
+sebelum: titik dinding (x=82.7,y=1.2,z=28) terbuka? True ; bibir tutup (y=3.5,z=33) terbuka? True
+sesudah: dinding terbuka? False ; bibir tutup terbuka? False
+pindai x 78.2..87.2 tiap 0.02 mm: dinding y=1.2 z=23/28/33.9 titik kosong = 0/0/0 ; bibir tutup y=3.5 z=32.5/33.5 = 0/0 ; bawah pelat y=3.5 z=34.05 = 0
+volume Base 76684 -> 76894 (+210, harapan >= 219); Tutup 45345 -> 45368 (+23, harapan 22)
+lubang USB d9 tetap ada: titik (46.5,1.2,7.0) di luar bahan = True
+Base v5 vs Tutup tabrakan: 0.00 mm3

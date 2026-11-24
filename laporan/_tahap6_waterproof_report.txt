@@ -1,0 +1,21 @@
+===== PCB1 W=126.9 D=114.2 H=34.0
+alur O-ring: lebar 2.6 dalam 1.5, tengah alur 3.0 mm dari tepi luar; panjang kabel O-ring sekitar 486 mm (d2.0 silikon, lem ujungnya)
+Base baru: bbox x[-3.5,130.4] y[-3.5,117.7] z[0.0,34.0] vol 139755
+Tutup baru: bbox x[-3.5,130.4] y[-3.5,117.7] z[20.1,37.0] vol 49616
+cek alur (488 titik di tengah alur): bahan di dalam alur = 0, lubang di bawah alur (dasar tidak utuh) = 0, tutup tidak menutup alur = 0 (semua harus 0)
+validitas geometri: Base=True Tutup=True (harus True)
+tabrakan Base x Tutup: 0.00 mm3
+--- tabrakan boss/dinding baru dengan isi (PCB1), mm3 > 0.5 ---
+  tidak ada
+pin tombol baru: batang d4.0 panjang 16.6 mm, puncak z=36.2 (menyentuh membran di dasar cekungan); tidak menonjol
+===== PCB2 W=54.6 D=122.0 H=33.9
+alur O-ring: lebar 2.6 dalam 1.5, tengah alur 3.0 mm dari tepi luar; panjang kabel O-ring sekitar 357 mm (d2.0 silikon, lem ujungnya)
+Base baru: bbox x[-3.5,58.1] y[-3.5,125.5] z[0.0,33.9] vol 95641
+Tutup baru: bbox x[-3.5,58.1] y[-3.5,125.5] z[31.9,36.9] vol 23828
+cek alur (360 titik di tengah alur): bahan di dalam alur = 0, lubang di bawah alur (dasar tidak utuh) = 0, tutup tidak menutup alur = 0 (semua harus 0)
+validitas geometri: Base=True Tutup=True (harus True)
+tabrakan Base x Tutup: 0.00 mm3
+--- tabrakan boss/dinding baru dengan isi (PCB2), mm3 > 0.5 ---
+  tidak ada
+SW1 puncak plunger z=36.1, dasar cekungan membran z=36.1 (selisih -0.00 mm)
+lubang pilot sudut PCB2 ditutup di bawah: titik (7,7,1.0) bahan = True
