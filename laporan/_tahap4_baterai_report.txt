@@ -1,0 +1,27 @@
+lantai Base setebal ~2.50 mm
+PCB2: dudukan PCB naik 18.0 mm (7.5 -> 25.5); dinding baru 32.3 mm; baterai menggantung z[3.5,25.5]
+penampang: dinding+tiang sudut 5 muka, tiang PCB 4 muka
+Base v4: z[0.0,32.3] vol 48906; Tutup z[30.3,35.3]
+holder: bbox x[16.7,37.7] y[22.0,99.2] z[3.5,27.6]
+--- cek tabrakan PCB2 v4 (mm3 > 0.5) ---
+  EasyEDA_PCB_Model    z[25.5,27.1] ok
+  C1                   z[27.1,27.9] ok
+  C2                   z[27.1,29.1] ok
+  R1                   z[27.1,27.6] ok
+  SW1                  z[27.1,36.1] ok
+  U1_MODUL             z[27.1,31.3] ok
+  U7_MODUL             z[27.1,31.2] ok
+  BAT_HOLDER           z[3.5,27.6] ok
+  amplop holder (kotak penuh) x Base: 0.0 mm3, x Tutup: 0.0 mm3
+  amplop holder x U1_MODUL: 0.0 mm3
+  amplop holder x U7_MODUL: 0.0 mm3
+  amplop holder x SW1: 0.0 mm3
+  amplop holder x C1: 0.0 mm3
+  amplop holder x C2: 0.0 mm3
+  amplop holder x R1: 0.0 mm3
+  amplop holder x PCB: 0.0 mm3 (pin menembus PCB: wajar bila kecil)
+  lantai ke dasar holder: 1.0 mm
+  SW1 puncak z=36.1, atas tutup z=35.3 -> menonjol 0.8 mm
+=== PCB1: holder di atas papan: bbox x[16.4,37.4] y[28.4,105.7] z[8.5,32.6]
+  bawah tutup z=29.2 (BT1 lama mentok di 29.2), holder baru puncak z=32.6 -> kurang 3.4 mm
+  amplop holder x Base: 0 mm3

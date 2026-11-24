@@ -1,0 +1,7 @@
+__pycache__/
+*.FCBak
+# model pihak ketiga (ukuran besar, lisensi beragam): unduh ulang, lihat modul/README.md dan mekanik/README.md
+modul/*
+!modul/README.md
+mekanik/**
+!mekanik/README.md

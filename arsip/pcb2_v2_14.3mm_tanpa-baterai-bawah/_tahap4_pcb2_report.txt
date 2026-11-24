@@ -1,0 +1,17 @@
+Base lama: tinggi 11.1, vol 25885; Tutup lama vol 20570
+penampang yang diekstrusi: 5 muka, luas total 1040 mm2
+tutup tertutup: z[12.3,17.3] (pelat 3.0 mm di atas, bibir 2.0 mm ke bawah)
+Base baru vol 29018 z[0.0,14.3]; Tutup baru vol 20479
+--- cek tabrakan terhadap casing baru (mm3, >0.5 dilaporkan) ---
+  EasyEDA_PCB_Model    z[7.5,9.1] ok
+  C1                   z[9.1,9.9] ok
+  C2                   z[9.1,11.1] ok
+  R1                   z[9.1,9.6] ok
+  SW1                  z[9.1,18.1] ok
+  H2                   z[-1.0,10.5] Base 2.4
+  U1_MODUL             z[9.1,13.3] ok
+  U7_MODUL             z[9.1,13.2] ok
+  komponen tertinggi SW1 z=18.1; bawah pelat tutup z=14.3
+  tutup x base baru: 0.00 mm3 (harus 0 atau ~0)
+  tutup x baut ref: 0.00 mm3
+  SW1 puncak z=18.1, atas tutup z=17.3 -> menonjol 0.8 mm

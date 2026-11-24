@@ -2,9 +2,22 @@
 
 Dokumentasi ini menjelaskan alur pengambilan model 3D papan sirkuit dari **EasyEDA** dalam format `.step` hingga proses visualisasi, pengukuran dimensi, dan penyimpanan proyek ke dalam format **FreeCAD** (`.FCStd`).
 
-### Daftar Berkas 3D pada Repositori
-* **Berkas `.step`**: Model pertukaran CAD 3D standar hasil ekspor langsung dari EasyEDA (contoh: `3D_PCB2_2026-11-21.step`, `3D_PCB3_2026-11-22.step`).
-* **Berkas `.FCStd`**: Berkas dokumen asli FreeCAD yang menyimpan objek 3D PCB beserta rancangan mekanik *casing* (contoh: `3d-pcb1.FCStd`, `3D-pcb2.FCStd`, `3d-pcb3.FCStd`, `(3)PANDU_PCB.FCStd`).
+### Struktur Folder
+| Folder | Isi |
+|---|---|
+| `pcb/` | Ekspor STEP terbaru dari EasyEDA (`3D_PCB1_2026-11-24.step`, `3D_PCB2_2026-11-24.step`, `3D_PCB3_2026-11-22.step`) |
+| `casing/` | FreeCAD asli casing per papan (`3d-pcb1.FCStd`, `3D-pcb2.FCStd`, `3d-pcb3.FCStd`) |
+| `perakitan/` | Casing + PCB baru + blok modul, untuk cek tabrakan (`assembly_PCB1/2_2026-11-24.FCStd`) |
+| `modul/` | Model 3D modul dari luar (STEP/3MF), lihat `modul/README.md` untuk ukuran dan status |
+| `mekanik/helm/` | Model pihak ketiga untuk helm (sayap helm, klip hard hat), lihat `mekanik/README.md` |
+| `mekanik/chest/` | Model pihak ketiga untuk chest strap |
+| `laporan/` | Laporan build dan cek tabrakan (tahap 0-5) |
+| `skrip/` | Skrip FreeCAD pembangun perakitan dan casing baru |
+| `RINGKASAN_3D_2026-11-25.md` | Ringkasan status, parameter, dan masalah terbuka |
+| `arsip/` | Berkas lama (STEP 21 Nov, `(3)PANDU_PCB.FCStd`), tidak dipakai lagi |
+
+* **Berkas `.step`**: Model pertukaran CAD 3D standar hasil ekspor langsung dari EasyEDA.
+* **Berkas `.FCStd`**: Dokumen asli FreeCAD yang menyimpan objek 3D PCB dan rancangan mekanik *casing*.
 
 ---
 

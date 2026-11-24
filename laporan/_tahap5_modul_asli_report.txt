@@ -1,0 +1,61 @@
+MT3608 board bbox BoundBox (-18.575, -0.01, -8.6, 18.575, 1.66, 8.6)
+TP4056 board bbox BoundBox (-14.15, -8.7, 0, 14.15, 8.7, 1.5)
+GY521 all bbox BoundBox (-10.245, -7.77, -9.84, 10.075, 7.775, 1.881)
+SuperMini pad solids 16 BoundBox (-28.8274, 3.1, -2.38575, -11.0274, 3.2, 17.2525)
+SuperMini all bbox BoundBox (-28.8306, 3.1, -4.87634, -11.0274, 7.3, 19.1237)
+Header all bbox BoundBox (-1.27, -3, -1.25, 8.895, 10.54, 1.25)
+===== PCB1
+  U2 model mt theta=0 atas pusat pad (59.5,36.0) -> bbox x[40.9,78.1] y[27.1,44.6] z[9.8,17.1]
+  U7 model tp theta=0 bawah pusat pad (27.3,48.9) -> bbox x[13.1,42.4] y[40.2,57.6] z[4.9,9.0]
+  U8 model gy theta=90 atas pusat pad (80.0,79.1) -> bbox x[78.7,94.2] y[68.9,89.2] z[5.0,16.7]
+  U10 model hd theta=90 atas pusat pad (82.6,26.8) -> bbox x[81.4,83.9] y[21.7,31.8] z[7.6,21.1]
+  U3 blok GENERIK 28.2x51.5x11.0 (belum ada model asli yang cocok)
+  U9 blok GENERIK 23.0x36.0x12.0 (belum ada model asli yang cocok)
+  cek pin U8: 8 pin model, jarak ke pad terdekat max 0.00 mm rata 0.00
+  cek pin U10: 4 pin model, jarak ke pad terdekat max 0.06 mm rata 0.04
+  Base z[0.0,29.2] Tutup z[29.2,34.2]
+  BT1                        z[5.6,29.2] x[16.0,37.8] y[29.3,104.8] ok
+  C1                         z[10.6,12.6] x[54.4,58.1] y[15.7,18.5] ok
+  C2                         z[10.6,11.4] x[51.7,53.3] y[24.3,25.1] ok
+  D1                         z[7.1,13.6] x[39.2,55.4] y[13.3,21.2] ok
+  EasyEDA PCB Model          z[9.0,10.6] x[9.5,117.4] y[9.5,104.7] ok
+  Q1                         z[10.6,11.7] x[93.3,95.8] y[83.0,85.9] ok
+  Q2                         z[10.6,11.7] x[98.4,100.9] y[83.0,85.9] ok
+  Q5                         z[10.6,11.6] x[103.5,106.0] y[83.0,85.9] ok
+  R2                         z[10.6,11.1] x[78.9,79.7] y[21.9,23.5] ok
+  R3                         z[10.6,11.1] x[93.8,95.4] y[76.4,77.2] ok
+  R4                         z[10.6,11.1] x[98.8,100.5] y[76.4,77.2] ok
+  R5                         z[10.6,11.1] x[103.9,105.6] y[76.4,77.2] ok
+  R6                         z[10.6,11.1] x[52.1,53.7] y[19.6,20.4] ok
+  R7                         z[10.6,11.1] x[52.1,53.7] y[22.0,22.8] ok
+  R8                         z[10.6,11.1] x[12.2,13.9] y[23.8,24.6] ok
+  R9                         z[10.6,11.1] x[12.2,13.9] y[18.0,18.8] ok
+  SW1                        z[10.6,19.6] x[73.0,82.0] y[92.9,99.0] ok
+  SW2(SOSButton)             z[10.6,19.6] x[93.0,102.0] y[92.9,99.0] ok
+  U10_MODUL                  z[7.6,21.1] x[81.4,83.9] y[21.7,31.8] ok
+  U2_MODUL                   z[9.8,17.1] x[40.9,78.1] y[27.1,44.6] ok
+  U3_MODUL                   z[10.6,21.6] x[41.8,70.0] y[46.0,97.5] ok
+  U6                         z[10.6,13.8] x[92.9,108.9] y[16.5,33.5] ok
+  U7_MODUL                   z[4.9,9.0] x[13.1,42.4] y[40.2,57.6] ok
+  U8_MODUL                   z[5.0,16.7] x[78.7,94.2] y[68.9,89.2] ok
+  U9_MODUL                   z[10.6,22.6] x[68.7,91.7] y[34.0,70.0] ok
+  tertinggi BT1 z=29.2; bawah tutup z=29.2; sisa -0.0 mm
+  tabrakan modul x bagian lain (>1 mm3):
+    U2_MODUL x U9_MODUL: 204 mm3
+    U8_MODUL x U9_MODUL: 20 mm3
+    U3_MODUL x U9_MODUL: 325 mm3
+===== PCB2
+  U1 model sm theta=90 atas pusat pad (26.3,70.4) -> bbox x[17.4,35.3] y[58.1,82.1] z[9.1,13.3]
+  U7 model tp theta=180 atas pusat pad (24.8,27.4) -> bbox x[9.6,38.9] y[18.7,36.1] z[9.1,13.2]
+  Base z[0.0,11.1] Tutup z[11.1,16.1]
+  C1                         z[9.1,9.9] x[33.8,35.4] y[88.2,89.0] ok
+  C2                         z[9.1,11.1] x[21.6,25.3] y[48.9,51.7] ok
+  EasyEDA PCB Model          z[7.5,9.1] x[11.5,43.1] y[11.5,110.5] ok
+  H2                         z[-1.0,10.5] x[25.9,28.4] y[58.0,63.1] nabrak Base 2 mm3; di bawah lantai z=-1.0
+  R1                         z[9.1,9.6] x[14.9,16.5] y[86.3,87.1] ok
+  SW1                        z[9.1,18.1] x[26.4,35.4] y[39.8,45.9] nabrak Tutup 66 mm3
+  U1_MODUL                   z[9.1,13.3] x[17.4,35.3] y[58.1,82.1] nabrak Tutup 153 mm3
+  U7_MODUL                   z[9.1,13.2] x[9.6,38.9] y[18.7,36.1] nabrak Tutup 38 mm3
+  tertinggi SW1 z=18.1; bawah tutup z=11.1; sisa -7.0 mm
+  tabrakan modul x bagian lain (>1 mm3):
+    (tidak ada)
