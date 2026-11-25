@@ -36,6 +36,14 @@ Detail angka ada di `laporan/_tahap*_report.txt`. Skrip pembangun ada di `skrip/
 
 **Varian tanpa lubang USB** (keputusan Calvin: baterai dicas di luar lalu diganti): `casing/3d-pcb1_v7_tanpa-usb.FCStd`, `casing/3D-pcb2_v6_tanpa-usb.FCStd` (STEP/STL `PCB1_v7_Base`, `PCB2_v6_Base`; tutup tetap `PCB1_v6_Tutup_cetak` dan `PCB2_v5_Tutup_cetak`), perakitan `assembly_PCB1_v11_...` dan `assembly_PCB2_v6_...`. Lubang d9 diisi penuh (0 titik kosong di 156 titik tiap papan), alur O-ring tetap menerus. Modul TP4056 tetap dipasang karena dilalui baterai sebagai proteksi (B+/B-). Ganti baterai berarti membuka tutup (12 sekrup PCB1, 8 sekrup PCB2) dan O-ring; pertimbangkan pintu baterai terpisah.
 
+## 3c. Versi tanpa bolongan dan pengait helm (terbaru)
+Keputusan Calvin: semua lubang dihilangkan; jalur masuk air yang tersisa hanya **tombol** dan **sela tutup**.
+- `skrip/13_tanpa_bolongan.py` -> `casing/3d-pcb1_v8_tanpa-bolongan.FCStd` dan `casing/3D-pcb2_v7_tanpa-bolongan.FCStd` (+ STEP/STL), perakitan `assembly_PCB1_v12_...` dan `assembly_PCB2_v7_...`.
+- Lubang USB, lubang sekrup klip chest di lantai (PCB1, klip direkatkan, bukan disekrup), lubang pilot sudut lantai (PCB2), dan lubang sekrup lama di tutup ditutup semua (pindai: 0 titik kosong).
+- Sekrup tutup dipindah ke **luar alur O-ring** (garis 5.5 mm di luar dinding lama), jadi lubang sekrup hanya sampai sela tutup di luar segel. Dinding ditebalkan 8.5 mm ke luar: ukuran luar PCB1 143.9 x 131.2, PCB2 71.6 x 139.0. Sekrup M3: PCB1 16 buah, PCB2 12 buah, sela maksimum 36 mm. Alur O-ring di garis dinding lama (kabel d2.0, sekitar 482 mm dan 353 mm).
+- Uji aliran air di komputer (grid 1.5 mm, bukan uji air asli): apa adanya rongga dalam terjangkau dari luar (lewat tombol), dengan tombol disumbat tidak terjangkau, di kedua papan. Tidak mendeteksi celah < 1.5 mm, toleransi sela tutup, pori cetakan.
+- Pengait helm PCB2 (`skrip/14_pcb2_lidah_helm.py` -> `casing/3D-pcb2_v8_helm-lidah.FCStd`, `perakitan/assembly_PCB2_v8_helm-lidah.FCStd`): casing di samping helm, sisi panjang vertikal, lidah IBEW (hasil crop) menembus slot. Bantalan 46 x 20 x 8 mm di bawah lantai dengan kantong buntu 30.4 x 3.9 x 6.0 mm; lidah dicetak terpisah dan direkatkan epoksi ke kantong. Lidah menjulur 25.3 mm di bawah bantalan (ke dalam helm), tebal 3.5 mm searah vertikal. Ukuran slot helm dan tebal dinding helm BELUM diketahui; model helm tidak ada.
+
 ## 4. Masalah terbuka (urut kepentingan)
 1. **Holder 18650: pin model berjarak 74.3 mm, pad PCB1 dan PCB2 berjarak 70.0 mm**, lubang 1.1 mm sedangkan pin model 0.5 x 1.5 mm (diagonal 1.6 mm). Ukur holder fisik sebelum print. PCB sudah diproduksi. Polaritas holder (sisi VBAT_POS) juga DUGAAN.
 2. **Waterproof belum diuji rendam.** Perlu: konektor USB-C panel-mount waterproof yang muat di lubang d9 (banyak yang butuh sekitar d16), membran silikon tombol, sealing washer untuk 20 sekrup (12 + 8), segel sekrup klip chest di lantai PCB1.

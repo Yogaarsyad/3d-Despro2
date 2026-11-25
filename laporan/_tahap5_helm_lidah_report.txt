@@ -1,0 +1,8 @@
+Base v7: valid=True bbox x[-8.5,63.1] y[-8.5,130.5] z[0.0,33.9]
+bantalan 46 x 20 x 8 mm di bawah lantai, kantong buntu 30.4 x 3.9, dalam 6.0 (sisa 2.0 mm di atas kantong + lantai 2.5)
+Base v8: valid=True vol 160004 -> 166652
+lidah crop: 33.0 x 31.3 x 3.5 mm (x lebar, y panjang, z tebal)
+lidah terpasang: x[10.8,43.8] y[59.2,62.8] z[-33.3,-2.0]; menjulur 25.3 mm di bawah bantalan (z=-8.0), ujung berduri di z=-33.3
+bagian lidah di dalam kantong: 629 mm3; menabrak bantalan: 0.000 mm3 (harus 0)
+lidah x Base v8 total: 0.000 mm3
+lantai di atas kantong: titik kosong 0 dari 45 (harus 0)

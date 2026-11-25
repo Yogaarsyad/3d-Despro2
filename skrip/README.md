@@ -20,6 +20,8 @@ Jalankan berurutan dari PowerShell. Path di dalam skrip masih absolut ke kompute
 | `10_pcb1_hapus_celah_sensor.py` | `casing/3d-pcb1_v5_sensor-di-tutup.FCStd`, `perakitan/assembly_PCB1_v9_...` (celah kabel sensor air dihapus) |
 | `11_waterproof.py` | `casing/3d-pcb1_v6_waterproof.FCStd`, `casing/3D-pcb2_v5_waterproof.FCStd`, perakitan v10/v5 (alur O-ring, dinding tebal, sekrup tambahan, membran tombol) |
 | `12_tanpa_usb.py` | varian tanpa lubang USB: `casing/3d-pcb1_v7_tanpa-usb.FCStd`, `casing/3D-pcb2_v6_tanpa-usb.FCStd`, perakitan v11/v6 |
+| `13_tanpa_bolongan.py` | `casing/3d-pcb1_v8_...`, `casing/3D-pcb2_v7_...`, perakitan v12/v7 (semua lubang ditutup, sekrup di luar segel) |
+| `14_pcb2_lidah_helm.py` | `casing/3D-pcb2_v8_helm-lidah.FCStd`, `perakitan/assembly_PCB2_v8_...` (bantalan dan lidah IBEW) |
 | `09_crop_adaptor_slot.py` | `mekanik/helm/adaptor_slot/` (lidah IBEW dan pelat sayap) |
 
 Skrip membutuhkan model pihak ketiga di `modul/` dan `mekanik/` (tidak ikut repo, lihat README di folder itu).

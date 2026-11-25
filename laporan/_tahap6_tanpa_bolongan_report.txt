@@ -1,0 +1,16 @@
+===== PCB1 W=126.9 D=114.2 H=34.0; garis sekrup di 5.5 mm dari dinding lama
+sekrup tutup: 16 buah, sela 36 mm; alur O-ring tengah di garis dinding lama, panjang kabel O-ring sekitar 482 mm (d2.0)
+Base valid=True vol 222947 bbox x[-8.5,135.4] y[-8.5,122.7]; Tutup valid=True vol 57720; tabrakan Base x Tutup 0.00 mm3
+PCB1 lubang USB d9 (x=46.5 z=7): titik kosong 0 dari 65
+PCB1 lubang sekrup klip chest di lantai: titik kosong 0 dari 70
+PCB1 lubang sekrup lama di tutup (4 sudut): titik kosong 0 dari 84
+uji aliran air PCB1 (grid 1.5 mm), rancangan apa adanya: rongga dalam terjangkau dari luar = True (211856 sel udara)
+uji aliran air PCB1, kedua tombol disumbat: rongga dalam terjangkau dari luar = False (88748 sel udara) -> harus False
+===== PCB2 W=54.6 D=122.0 H=33.9; garis sekrup di 5.5 mm dari dinding lama
+sekrup tutup: 12 buah, sela 36 mm; alur O-ring tengah di garis dinding lama, panjang kabel O-ring sekitar 353 mm (d2.0)
+Base valid=True vol 160004 bbox x[-8.5,63.1] y[-8.5,130.5]; Tutup valid=True vol 29860; tabrakan Base x Tutup 0.00 mm3
+PCB2 takik USB lama: 30 dari 225 titik kosong, semuanya di z>=32.55 yang memang alur O-ring (x 0.3 dan 1.2); di bawah alur 0 titik kosong (diperiksa ulang)
+PCB2 lubang pilot sudut di lantai: titik kosong 0 dari 60
+PCB2 lubang sekrup lama di tutup (4 sudut): titik kosong 0 dari 84
+uji aliran air PCB2 (grid 1.5 mm), rancangan apa adanya: rongga dalam terjangkau dari luar = True (110002 sel udara)
+uji aliran air PCB2, tombol SW1 disumbat: rongga dalam terjangkau dari luar = False (58506 sel udara) -> harus False
