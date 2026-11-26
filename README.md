@@ -83,6 +83,8 @@ File STL (satuan mm) tidak bisa langsung dikirim ke printer. Buka dulu di **slic
 
 **Urutan cetak:** kupon uji dulu (urutan dan kriteria lulus di [`casing/kupon/README.md`](casing/kupon/README.md)), baru casing.
 
+Fungsi tiap file, jumlah, dan barang non-cetak: [`casing/README.md`](casing/README.md).
+
 | Bagian | File di `casing/` |
 |---|---|
 | PCB1 (Vest): dasar, tutup, pin tombol, dudukan klip | `PCB1_v10_Base.stl`, `PCB1_v10_Tutup_cetak.stl`, `PCB1_v10_Pin_tombol.stl` (2 buah), `PCB1_v10_Dudukan_klip_cetak.stl` |
