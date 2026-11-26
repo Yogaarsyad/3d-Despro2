@@ -54,3 +54,38 @@ Jika Anda hanya ingin melihat visualisasi 3D tanpa melakukan ekspor ulang dari E
 2. Pastikan perangkat lunak **FreeCAD** sudah terpasang.
 3. Klik dua kali langsung pada salah satu berkas proyek seperti `(3)PANDU_PCB.FCStd`, `3d-pcb1.FCStd`, `3D-pcb2.FCStd`, atau `3d-pcb3.FCStd` di File Explorer.
 4. Gunakan panel **Model** di sisi kiri layar FreeCAD untuk menyembunyikan atau menampilkan bagian *casing* maupun papan PCB dengan menekan tombol **`Spasi`** pada bagian yang dipilih.
+
+---
+
+### Tahap 4: Mencetak File `.stl` (3D Print)
+File STL (satuan mm) tidak bisa langsung dikirim ke printer. Buka dulu di **slicer**, yang mengubah STL menjadi instruksi printer (G-code).
+
+**Lewat jasa print:** kirim file STL dengan catatan *PETG, skala 100% (mm), layer 0.2 mm, 4 perimeter, infill 30%, posisi jangan diputar.*
+
+**Print sendiri:**
+1. Pasang slicer sesuai merek printer, unduh dari situs resminya:
+
+   | Printer | Slicer |
+   |---|---|
+   | Bambu Lab | Bambu Studio |
+   | Prusa | PrusaSlicer |
+   | Creality (Ender, K1) | Creality Print atau OrcaSlicer |
+   | Lainnya | OrcaSlicer atau UltiMaker Cura |
+
+2. Pilih profil printer, nozzle 0.4 mm, filamen PETG.
+3. Tarik file STL ke jendela slicer atau tekan `Ctrl+O`. Mulai dari `casing/kupon/Kal_1_ukuran_100mm.stl`.
+4. Cek sebelum slice:
+   - Ukuran `Kal_1` harus 100 x 100 x 2 mm. Jika jauh berbeda, satuannya salah.
+   - Jangan pakai auto-orient; bagian datar menempel di bed seperti bawaan file. Jika objek melayang, pilih "drop to bed".
+5. Setelan awal (belum diuji cetak): layer 0.2 mm, 4 perimeter, 5 layer atas dan bawah, infill 30%.
+6. Support: kupon dan file PCB1 dirancang rata di bed, biarkan mati. `PCB2_v17_ibew-kunci-tengah_Base.stl` butuh support di bawah lidahnya ("touching build plate"). Periksa pratinjau slicer untuk bagian yang menggantung.
+7. Klik **Slice**, periksa pratinjau tiap layer, lalu kirim ke printer (WiFi, USB, atau kartu SD).
+
+**Urutan cetak:** kupon uji dulu (urutan dan kriteria lulus di [`casing/kupon/README.md`](casing/kupon/README.md)), baru casing.
+
+| Bagian | File di `casing/` |
+|---|---|
+| PCB1 (Vest): dasar, tutup, pin tombol, dudukan klip | `PCB1_v10_Base.stl`, `PCB1_v10_Tutup_cetak.stl`, `PCB1_v10_Pin_tombol.stl` (2 buah), `PCB1_v10_Dudukan_klip_cetak.stl` |
+| PCB2 (Helmet): dasar, tutup | `PCB2_v17_ibew-kunci-tengah_Base.stl`, `PCB2_v7_Tutup_cetak.stl` |
+
+Dasar PCB1 berukuran 145.9 x 133.2 mm, jadi bed printer minimal 150 x 150 mm.
