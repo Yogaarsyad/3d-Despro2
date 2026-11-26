@@ -1,0 +1,26 @@
+===== PCB1 (Vest) v10 perakitan/assembly_PCB1_v14_final.FCStd
+objek yang diperiksa: 29 komponen; tidak bisa diperiksa: KLIP_CHEST_SlimeVR (mesh)
+daftar: BAT_HOLDER, Baut_PCB_Ref, C1, C2, D1, Dudukan_klip, EasyEDA_PCB_Model, Pin_tombol_1, Pin_tombol_2, Q1, Q2, Q5, R2, R3, R4, R5, R6, R7, R8, R9, SW1, SW2_SOSButton_, U10_MODUL, U2_MODUL, U3_DEVKIT_asli, U6, U7_MODUL, U8_MODUL, U9_GPS_antena
+Base: valid=True solid=1 | Tutup: valid=True solid=1
+[1] Base x Tutup tumpang tindih: 0.000 mm3
+[2] komponen menembus casing (> 0.05 mm3):
+    Baut_PCB_Ref x Base: 51.84 mm3 di x[11.8,115.1] y[10.3,102.4] z[3.0,9.0]
+[3] komponen saling tumpang tindih (> 0.5 mm3; model PCB EasyEDA dikecualikan):
+    D1 x R6: 0.57 mm3
+[4] jarak komponen ke casing di bawah 0.8 mm (tidak menembus):
+    Dudukan_klip -> Base: 0.00 mm
+    U3_DEVKIT_asli -> Base: 0.46 mm
+selesai PCB1 (Vest) v10 dalam 352 s
+===== PCB2 (Helmet) v17 perakitan/assembly_PCB2_v17_ibew-kunci-tengah.FCStd
+objek yang diperiksa: 9 komponen; tidak bisa diperiksa: HELM_kuning_cangkang (mesh), HELM_kuning_suspensi (mesh)
+daftar: BAT_HOLDER, Baut_PCB_Ref, C1, C2, EasyEDA_PCB_Model, R1, SW1, U1_MODUL, U7_MODUL
+Base: valid=True solid=1 | Tutup: valid=True solid=1
+[1] Base x Tutup tumpang tindih: 0.000 mm3
+[2] komponen menembus casing (> 0.05 mm3):
+    Baut_PCB_Ref x Base: 38.88 mm3 di x[13.8,40.8] y[13.8,108.2] z[21.0,25.5]
+[3] komponen saling tumpang tindih (> 0.5 mm3; model PCB EasyEDA dikecualikan):
+    tidak ada
+[4] jarak komponen ke casing di bawah 0.8 mm (tidak menembus):
+    SW1 -> Tutup: 0.32 mm
+selesai PCB2 (Helmet) v17 dalam 162 s
+SELESAI

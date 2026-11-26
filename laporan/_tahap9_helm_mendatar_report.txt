@@ -1,0 +1,31 @@
+depan-belakang helm di sekitar slot: 143 mm ke +x, 109 mm ke -x dari slot (slot di 4 mm dari tengah)
+=== v11_helm-mendatar-ujung: lidah di y=105.5 (casing y -8.5..130.5), casing menuju belakang helm dari slot ===
+Base valid=True; bantalan y[82.5,128.5]; lidah x[25.6,29.1] y[91.0,120.0] z[-33.3,-2.0]; lidah x Base 0.000 mm3 (harus 0)
+titik cangkang helm di dalam Base: 0 (harus 0)
+titik suspensi helm di dalam Base: 0 (harus 0)
+punggung casing vs cangkang di luar bantalan: titik terdekat z=-3.5 mm (harus < 0)
+jarak casing ke permukaan helm di ujung y kecil (-8.5..5): 74 mm
+jarak casing ke permukaan helm di ujung y besar (118..130.5): 4 mm
+ujung casing jatuh di -110 dan 29 mm dari tengah helm (panjang helm: 147 ke +x, 105 ke -x dari tengah)
+jarak terdekat lidah ke cangkang (kasar): 0.4 mm
+jarak terdekat lidah ke suspensi (kasar): 1.8 mm
+=== v11b_helm-mendatar-ujung-ke-visor: lidah di y=105.5 (casing y -8.5..130.5), casing menuju visor dari slot ===
+Base valid=True; bantalan y[82.5,128.5]; lidah x[25.6,29.1] y[91.0,120.0] z[-33.3,-2.0]; lidah x Base 0.000 mm3 (harus 0)
+titik cangkang helm di dalam Base: 0 (harus 0)
+titik suspensi helm di dalam Base: 0 (harus 0)
+punggung casing vs cangkang di luar bantalan: titik terdekat z=-3.5 mm (harus < 0)
+jarak casing ke permukaan helm di ujung y kecil (-8.5..5): 29 mm
+jarak casing ke permukaan helm di ujung y besar (118..130.5): 6 mm
+ujung casing jatuh di 118 dan -21 mm dari tengah helm (panjang helm: 147 ke +x, 105 ke -x dari tengah)
+jarak terdekat lidah ke cangkang (kasar): 0.4 mm
+jarak terdekat lidah ke suspensi (kasar): 1.8 mm
+=== v12_helm-mendatar-tengah: lidah di y=60.0 (casing y -8.5..130.5), casing menuju belakang helm dari slot ===
+Base valid=True; bantalan y[37.0,83.0]; lidah x[25.6,29.1] y[45.5,74.5] z[-33.3,-2.0]; lidah x Base 0.000 mm3 (harus 0)
+titik cangkang helm di dalam Base: 0 (harus 0)
+titik suspensi helm di dalam Base: 0 (harus 0)
+punggung casing vs cangkang di luar bantalan: titik terdekat z=-3.5 mm (harus < 0)
+jarak casing ke permukaan helm di ujung y kecil (-8.5..5): 20 mm
+jarak casing ke permukaan helm di ujung y besar (118..130.5): 14 mm
+ujung casing jatuh di -65 dan 74 mm dari tengah helm (panjang helm: 147 ke +x, 105 ke -x dari tengah)
+jarak terdekat lidah ke cangkang (kasar): 0.4 mm
+jarak terdekat lidah ke suspensi (kasar): 1.8 mm

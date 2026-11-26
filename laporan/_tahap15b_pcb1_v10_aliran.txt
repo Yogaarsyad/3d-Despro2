@@ -1,0 +1,3 @@
+grid 0.75 mm, 203 x 186 x 56 sel; kolom dengan jumlah potong ganjil: base 0, tutup 0 (harus 0)
+apa adanya: titik tengah rongga kosong=True; air dari luar sampai ke rongga dalam = True (volume rongga terhubung 592 cm3)
+kedua tombol disumbat: titik tengah rongga kosong=True; air dari luar sampai ke rongga dalam = False (volume rongga terhubung 415 cm3)

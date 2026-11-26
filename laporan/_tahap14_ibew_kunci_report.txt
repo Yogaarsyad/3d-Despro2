@@ -1,0 +1,38 @@
+mulut saluran (tepi atas dinding luar) di pc3=0.0420
+celah di model 4.6 mm, helm asli 3.5 mm -> lidah 3.1 mm, sisa 0.20 mm per sisi; kedalaman model 11.7 mm, asli 14 mm, lidah turun 16.7 mm
+=== v17_ibew-kunci-tengah: pelat di y=60.0; pelat z[1.04,4.14], x[-25.2,-8.5] ===
+lidah IBEW: x[-25.2,-6.0] y[43.5,76.5] z[1.04,4.14] vol 1536
+Base valid=True vol 160004 -> 161307
+titik cangkang helm di dalam Base+pelat: 53 (harus 0)
+   sebaran x[-20.7,-8.4] y[45.0,78.6] z[0.6,5.4]
+   histogram y-YC (bin 2 mm, -16..16): [7, 1, 7, 1, 3, 1, 0, 0, 0, 7, 0, 0, 0, 2, 0, 6]
+   histogram x (-20..-8, bin 2): [8, 2, 3, 6, 14]
+   pelat di dalam saluran (di luar dasar): 35 titik; y-YC[-15.0,15.0] z[1.2,3.8] x[-19.6,-9.3]
+titik suspensi helm di dalam Base+pelat: 0 (harus 0)
+punggung casing (z=0) vs cangkang di atas mulut saluran: titik terdekat z=5.4 mm (harus < 0 supaya nggak menabrak; makin dekat 0 makin menempel)
+jarak punggung casing ke helm di ujung y kecil (belakang): 10 mm
+jarak punggung casing ke helm di ujung y besar (depan): 6 mm
+ujung casing jatuh di -65 dan 74 mm dari tengah helm (helm: 147 ke depan, 105 ke belakang)
+casing berdiri di atas saluran: tinggi casing 71.6 mm ke arah mahkota (x dari -8.5 sampai 63.1)
+jarak terdekat pelat ke cangkang (kasar): 1.5 mm
+jarak terdekat pelat ke suspensi (kasar): 12.0 mm
+bahu duri: 14.45 mm dari tepi bawah casing (syarat minimal 14 mm) -> OK
+ujung pelat di x=-25.2; dasar saluran di model x=-20.2 -> pelat menembus dasar model 5.0 mm
+=== v17b_ibew-kunci-ujung: pelat di y=16.5; pelat z[1.04,4.14], x[-25.2,-8.5] ===
+lidah IBEW: x[-25.2,-6.0] y[0.0,33.0] z[1.04,4.14] vol 1536
+Base valid=True vol 160004 -> 161307
+titik cangkang helm di dalam Base+pelat: 53 (harus 0)
+   sebaran x[-20.7,-8.4] y[1.5,35.1] z[0.6,5.4]
+   histogram y-YC (bin 2 mm, -16..16): [7, 1, 7, 1, 3, 1, 0, 0, 0, 7, 0, 0, 0, 2, 0, 6]
+   histogram x (-20..-8, bin 2): [8, 2, 3, 6, 14]
+   pelat di dalam saluran (di luar dasar): 35 titik; y-YC[-15.0,15.0] z[1.2,3.8] x[-19.6,-9.3]
+titik suspensi helm di dalam Base+pelat: 0 (harus 0)
+punggung casing (z=0) vs cangkang di atas mulut saluran: titik terdekat z=5.4 mm (harus < 0 supaya nggak menabrak; makin dekat 0 makin menempel)
+jarak punggung casing ke helm di ujung y kecil (belakang): 2 mm
+jarak punggung casing ke helm di ujung y besar (depan): tidak ada helm di sana
+ujung casing jatuh di -21 dan 118 mm dari tengah helm (helm: 147 ke depan, 105 ke belakang)
+casing berdiri di atas saluran: tinggi casing 71.6 mm ke arah mahkota (x dari -8.5 sampai 63.1)
+jarak terdekat pelat ke cangkang (kasar): 1.5 mm
+jarak terdekat pelat ke suspensi (kasar): 12.0 mm
+bahu duri: 14.45 mm dari tepi bawah casing (syarat minimal 14 mm) -> OK
+ujung pelat di x=-25.2; dasar saluran di model x=-20.2 -> pelat menembus dasar model 5.0 mm

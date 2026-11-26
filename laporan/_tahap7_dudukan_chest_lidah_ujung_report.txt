@@ -4,7 +4,7 @@ PCB1 Base v9: valid=True vol 222947 -> 231671; bantalan x[28.5,98.4] y[27.9,96.3
 lantai di atas kantong PCB1: titik kosong 0 dari 168 (harus 0, selain bagian dasar yang memang kosong)
 klip digeser turun 1.5 mm: bagian atas klip 1.5 mm masuk kantong, klip z[-17.0,-1.5]
 PCB2 Base v7 bbox y[-8.5,130.5]
-PCB2 Base v9: valid=True vol 160004 -> 166652; bantalan y[108.0,128.0] (lantai luar sampai y=130.5)
+PCB2 Base v9: valid=True vol 160004 -> 163340; bantalan y[112.5,123.5] (lantai luar sampai y=130.5)
 lidah terpasang x[10.8,43.8] y[116.2,119.8] z[-33.3,-2.0]
 lidah x Base v9: 0.000 mm3 (harus 0)
 lantai di atas kantong PCB2: titik kosong 0 dari 45 (harus 0)

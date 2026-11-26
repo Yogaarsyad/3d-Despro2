@@ -1,0 +1,11 @@
+kerangka helm: det=1.000 (harus +1)
+skala 508.5 mm per satuan model (slot 30 mm = 0.059 satuan)
+ukuran helm hasil skala: depan-belakang 252 mm, tinggi 131 mm, lebar 203 mm (diukur dari cangkang)
+dinding di slot di model: tebal sekitar 12.7 mm (z 0.165..0.190 satuan); Calvin bilang kedalaman 15 mm
+lidah dipersempit: lebar 29.0 mm (slot 30), tebal 3.5, z[-33.3,-2.0]; valid=True
+cangkang: titik helm di dalam Base: 0
+suspensi: titik helm di dalam Base: 0
+jarak cangkang helm ke punggung casing (z=0) di luar bantalan: titik terdekat z=-3.5 mm (positif = menembus ke casing, harus < 0)
+jarak titik terdekat lidah (kasar, vertex) ke cangkang: 0.4 mm
+jarak titik terdekat lidah (kasar, vertex) ke suspensi: 1.8 mm
+dinding 15 mm: sisi dalam di z=-23.0, ujung lidah z=-33.3 -> lidah menjulur 10.3 mm ke dalam helm

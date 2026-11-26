@@ -15,7 +15,7 @@ WARNA = [  # (awalan nama objek, (r,g,b), transparansi %)
     ("U6",(0.95,0.95,0.95),0),           # Ra-02
     ("BAT",(0.30,0.30,0.35),20),         # holder 18650
     ("SW",(0.95,0.95,0.95),0),
-    ("KLIP",(1.0,0.45,0.0),0), ("Pin",(1.0,0.9,0.1),0),
+    ("HELM_kuning_cangkang",(1.0,0.78,0.0),55), ("HELM_kuning_suspensi",(0.9,0.9,0.9),0), ("KLIP",(1.0,0.45,0.0),0), ("Pin",(1.0,0.9,0.1),0),
 ]
 def _warna(nama):
     for pre,c,t in WARNA:

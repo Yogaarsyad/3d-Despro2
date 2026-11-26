@@ -1,0 +1,34 @@
+mulut saluran (tepi atas dinding luar) di pc3=0.0420
+saluran: celah dinding 4.6 mm (pelat 3.0 -> sisa 0.79 mm per sisi), kedalaman di model 11.7 mm, kata Calvin 15 mm
+=== v14_lidah-turun-tengah: pelat di y=60.0; pelat z[1.09,4.09], x[-25.0,-8.5] ===
+Base valid=True vol 160004 -> 161439
+titik cangkang helm di dalam Base+pelat: 52 (harus 0)
+   sebaran x[-20.7,-8.4] y[45.9,78.6] z[0.6,5.4]
+   histogram y-YC (bin 2 mm, -16..16): [2, 1, 7, 7, 3, 1, 0, 0, 0, 7, 0, 0, 0, 7, 0, 0]
+   histogram x (-20..-8, bin 2): [11, 4, 3, 4, 12]
+   pelat di dalam saluran (di luar dasar): 35 titik; y-YC[-14.1,12.0] z[1.6,3.8] x[-19.6,-9.6]
+titik suspensi helm di dalam Base+pelat: 0 (harus 0)
+punggung casing (z=0) vs cangkang di atas mulut saluran: titik terdekat z=5.4 mm (harus < 0 supaya nggak menabrak; makin dekat 0 makin menempel)
+jarak punggung casing ke helm di ujung y kecil (belakang): 10 mm
+jarak punggung casing ke helm di ujung y besar (depan): 6 mm
+ujung casing jatuh di -65 dan 74 mm dari tengah helm (helm: 147 ke depan, 105 ke belakang)
+casing berdiri di atas saluran: tinggi casing 71.6 mm ke arah mahkota (x dari -8.5 sampai 63.1)
+jarak terdekat pelat ke cangkang (kasar): 1.1 mm
+jarak terdekat pelat ke suspensi (kasar): 11.4 mm
+ujung pelat di x=-25.0; dasar saluran di model x=-20.2 -> pelat menembus dasar model 4.8 mm
+=== v14b_lidah-turun-ujung: pelat di y=16.5; pelat z[1.09,4.09], x[-25.0,-8.5] ===
+Base valid=True vol 160004 -> 161439
+titik cangkang helm di dalam Base+pelat: 52 (harus 0)
+   sebaran x[-20.7,-8.4] y[2.4,35.1] z[0.6,5.4]
+   histogram y-YC (bin 2 mm, -16..16): [2, 1, 7, 7, 3, 1, 0, 0, 0, 7, 0, 0, 0, 7, 0, 0]
+   histogram x (-20..-8, bin 2): [11, 4, 3, 4, 12]
+   pelat di dalam saluran (di luar dasar): 35 titik; y-YC[-14.1,12.0] z[1.6,3.8] x[-19.6,-9.6]
+titik suspensi helm di dalam Base+pelat: 0 (harus 0)
+punggung casing (z=0) vs cangkang di atas mulut saluran: titik terdekat z=5.4 mm (harus < 0 supaya nggak menabrak; makin dekat 0 makin menempel)
+jarak punggung casing ke helm di ujung y kecil (belakang): 2 mm
+jarak punggung casing ke helm di ujung y besar (depan): tidak ada helm di sana
+ujung casing jatuh di -21 dan 118 mm dari tengah helm (helm: 147 ke depan, 105 ke belakang)
+casing berdiri di atas saluran: tinggi casing 71.6 mm ke arah mahkota (x dari -8.5 sampai 63.1)
+jarak terdekat pelat ke cangkang (kasar): 1.1 mm
+jarak terdekat pelat ke suspensi (kasar): 11.4 mm
+ujung pelat di x=-25.0; dasar saluran di model x=-20.2 -> pelat menembus dasar model 4.8 mm

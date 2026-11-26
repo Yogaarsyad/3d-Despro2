@@ -1,0 +1,24 @@
+=== v13_kait-tengah: kait di y=60.0 dari y -8.5..130.5, sg=1 ===
+Base valid=True vol 160004 -> 162587; stub x[-5.0,-1.0] z[-18.5,-1.0]; bibir turun sampai x=3.0, z[-18.5,-16.5]
+titik cangkang helm di dalam Base+kait: 16 (harus 0)
+   sebaran x[-4.6,-1.4] y[48.8,72.0] z[-14.2,-1.7]
+titik suspensi helm di dalam Base+kait: 0 (harus 0)
+punggung casing vs cangkang di luar blok kait: titik terdekat z=-1.8 mm (harus < 0; 0 = menempel)
+jarak casing ke helm di ujung y kecil: 17 mm
+jarak casing ke helm di ujung y besar: 7 mm
+ujung casing jatuh di -65 dan 74 mm dari tengah helm (helm: 147 ke +x, 105 ke -x)
+casing menggantung 66 mm di bawah tengah slot (x casing -3 sampai 63.1)
+jarak terdekat bibir kait ke cangkang (kasar, vertex): 2.9 mm
+jarak terdekat bibir kait ke suspensi (kasar, vertex): 2.4 mm
+=== v13b_kait-ujung-ke-visor: kait di y=16.5 dari y -8.5..130.5, sg=1 ===
+Base valid=True vol 160004 -> 162587; stub x[-5.0,-1.0] z[-18.5,-1.0]; bibir turun sampai x=3.0, z[-18.5,-16.5]
+titik cangkang helm di dalam Base+kait: 16 (harus 0)
+   sebaran x[-4.6,-1.4] y[5.3,28.5] z[-14.2,-1.7]
+titik suspensi helm di dalam Base+kait: 0 (harus 0)
+punggung casing vs cangkang di luar blok kait: titik terdekat z=-1.8 mm (harus < 0; 0 = menempel)
+jarak casing ke helm di ujung y kecil: 11 mm
+jarak casing ke helm di ujung y besar: 36 mm
+ujung casing jatuh di -21 dan 118 mm dari tengah helm (helm: 147 ke +x, 105 ke -x)
+casing menggantung 66 mm di bawah tengah slot (x casing -3 sampai 63.1)
+jarak terdekat bibir kait ke cangkang (kasar, vertex): 2.9 mm
+jarak terdekat bibir kait ke suspensi (kasar, vertex): 2.4 mm

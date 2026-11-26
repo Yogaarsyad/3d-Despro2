@@ -53,7 +53,7 @@ for o in a1.Objects:
 nd.recompute(); nd.saveAs(W_+"perakitan/assembly_PCB1_v13_dudukan-chest.FCStd")
 # ===== PCB2: lidah di ujung sisi panjang (ujung atas, y besar) =====
 CX,CY=27.3,118.0
-PAD_W,PAD_L,PAD_T2=46.0,20.0,8.0; POCK2=6.0; TW,TT,CLR2=30.0,3.5,0.2
+PAD_W,PAD_L,PAD_T2=46.0,11.0,8.0; POCK2=6.0; TW,TT,CLR2=30.0,3.5,0.2
 s2=FreeCAD.openDocument(W_+"casing/3D-pcb2_v7_tanpa-bolongan.FCStd")
 base2=s2.getObject("Base_v7").Shape
 P("PCB2 Base v7 bbox y[%.1f,%.1f]"%(base2.BoundBox.YMin,base2.BoundBox.YMax))

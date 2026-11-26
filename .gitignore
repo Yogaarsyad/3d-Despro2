@@ -8,3 +8,8 @@ mekanik/**
 !mekanik/helm/
 !mekanik/helm/adaptor_slot/
 !mekanik/helm/adaptor_slot/**
+# perakitan berisi mesh helm pihak ketiga: jangan dipublikasikan; buat ulang lewat skrip 16-22
+perakitan/assembly_PCB2_v1[0-7]*.FCStd
+# varian kait/lidah helm yang sudah diganti (buat ulang lewat skrip 17-21); yang dipakai: PCB2_v17_ibew-kunci-tengah
+casing/PCB2_v1[1-6]*
+casing/PCB2_v17b_*

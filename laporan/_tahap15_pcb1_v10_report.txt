@@ -1,0 +1,13 @@
+sisa dinding counterbore ke tepi luar: 1.00 mm (harus >= 1.0; v8 = -0.10)
+===== PCB1 W=126.9 D=114.2 H=34.0; garis sekrup di 5.5 mm dari dinding lama
+sekrup tutup: 16 buah, sela maks 36 mm; panjang kabel O-ring sekitar 482 mm (d2.0)
+Base valid=True vol 241790 bbox x[-9.5,136.4] y[-9.5,123.7]; Tutup valid=True vol 59384; tabrakan Base x Tutup 0.00 mm3
+ukuran luar PCB1: 145.9 x 133.2 mm, tinggi dasar 34.0 (v8: 143.9 x 131.2)
+lubang USB tertutup: titik kosong 3 dari 24
+lubang klip di lantai tertutup: titik kosong 0 dari 70
+lubang sekrup lama di tutup tertutup: titik kosong 0 dari 84
+titik tepi counterbore yang keluar dari tepi luar tutup: 0 dari 384 (harus 0)
+dudukan klip: 69.8 x 68.4 x 3.0 mm, kantong 61.8 x 60.4 dalam 1.5; posisi di lantai: x 28.5..98.4, y 27.9..96.3 (dari titik nol casing)
+dudukan klip cetak: valid=True, kantong menghadap atas (tanpa support), tinggi 3.0
+kupon sudut: dasar valid=True, tutup valid=True, sekrup di kupon: 3
+kupon lidah: 2.9 (1 titik), 3.1 (2 titik), 3.3 (3 titik) mm; panjang 31.3, lebar 33

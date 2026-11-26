@@ -22,6 +22,12 @@ Jalankan berurutan dari PowerShell. Path di dalam skrip masih absolut ke kompute
 | `12_tanpa_usb.py` | varian tanpa lubang USB: `casing/3d-pcb1_v7_tanpa-usb.FCStd`, `casing/3D-pcb2_v6_tanpa-usb.FCStd`, perakitan v11/v6 |
 | `13_tanpa_bolongan.py` | `casing/3d-pcb1_v8_...`, `casing/3D-pcb2_v7_...`, perakitan v12/v7 (semua lubang ditutup, sekrup di luar segel) |
 | `14_pcb2_lidah_helm.py` | `casing/3D-pcb2_v8_helm-lidah.FCStd`, `perakitan/assembly_PCB2_v8_...` (bantalan dan lidah IBEW) |
+| `15_dudukan_chest_dan_lidah_ujung.py` | PCB1 v9 dudukan klip chest (bantalan menyatu; diganti skrip 23), PCB2 lidah di ujung |
+| `16`-`22` (`pcb2_*.py`) | PCB2 pasang helm kuning: 16 kait J (salah), 17 mendatar, 18 kait J, 19 lidah turun (slot = saluran terbuka ke atas), 20-22 lidah IBEW asli, ukuran slot asli (tebal 3.5, dalam 14), bahu duri >= 14 mm. **Terakhir dipakai: 22 (`PCB2_v17_ibew-kunci-tengah_Base.stl`)** |
+| `23_pcb1_v10_final.py` | PCB1 v10: sekrup tidak tembus tepi (sisa dinding 1.0), lekukan membran 1.0 mm, dudukan klip pelat terpisah, kupon uji di `casing/kupon/`; perakitan `assembly_PCB1_v14_final.FCStd` |
+| `24_pcb1_v10_uji_aliran.py` | uji jalur air di komputer (voxel 0.75 mm, python + numpy + scipy; argumen STL Base dan Tutup posisi terpasang); hasil di `laporan/_tahap15b_pcb1_v10_aliran.txt` |
+| `25_audit_3d.py` | audit tabrakan dan jarak PCB1 v10 dan PCB2 v17, hasil di `laporan/_audit_3d_report.txt` |
+| `26_kupon_kalibrasi.py` | model uji cetak `casing/kupon/Kal_*.stl` (lihat `casing/kupon/README.md`) |
 | `09_crop_adaptor_slot.py` | `mekanik/helm/adaptor_slot/` (lidah IBEW dan pelat sayap) |
 
 Skrip membutuhkan model pihak ketiga di `modul/` dan `mekanik/` (tidak ikut repo, lihat README di folder itu).
